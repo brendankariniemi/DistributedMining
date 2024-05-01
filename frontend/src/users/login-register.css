@@ -1,0 +1,57 @@
+body, html {
+    height: 100%; /* Full height */
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Font style */
+    background-color: #f0f0f0; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+label {
+    display: block; /* Make the label a block element to take the full width */
+    margin-bottom: 5px; /* Space below the label */
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    margin-bottom: 15px; /* Space below the inputs */
+    border: 1px solid #ddd;
+    border-radius: 5px; /* Rounded corners for inputs */
+    box-sizing: border-box; /* Border box sizing */
+}
+
+button {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.link-box {
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 5px 1px;
+}
+
+.link-box p {
+    margin: 0 8px 0 0;
+}
+
+.input-error {
+    border: 1px solid red !important;
+}

@@ -1,0 +1,40 @@
+/* Define styles for the container of resources */
+.resources-container {
+    margin-top: 125px;
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Stack child elements vertically */
+    gap: 20px; /* Add spacing between child elements */
+}
+
+/* Define styles for each individual div within the resources container */
+.resources-container > div {
+    border: 1px solid #ccc; /* Add a border around each section */
+    padding: 20px; /* Add padding inside each section */
+    border-radius: 10px; /* Add rounded corners to each section */
+}
+
+/* Define styles for the h1 element within the resources container */
+.resources-container h1 {
+    margin-bottom: 20px; /* Add space below the h1 element */
+}
+
+/* Define styles for the h2 elements within the resources container */
+.resources-container h2 {
+    margin-bottom: 10px; /* Add space below each h2 element */
+}
+
+/* Define styles for the h3 elements within the resources container */
+.resources-container h3 {
+    margin-bottom: 5px; /* Add space below each h3 element */
+}
+
+/* Define styles for the p elements within the resources container */
+.resources-container p {
+    margin-bottom: 10px; /* Add space below each paragraph */
+}
+
+/* Define styles for the a elements within the resources container */
+.resources-container a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}

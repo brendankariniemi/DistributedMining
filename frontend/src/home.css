@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.home-container {
+    display: flex; /* Enables Flexbox layout */
+    align-items: center; /* Aligns items vertically in the center */
+    justify-content: space-between; /* Spreads items to fill the space */
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-bg {
+    width: 50%; /* Adjust as necessary */
+    max-height: 100vh; /* Maintains aspect ratio */
+}
+
+.content {
+    width: 45%; /* Adjust the width as needed to fit text */
+    padding: 20px;
+}
+
