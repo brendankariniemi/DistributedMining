@@ -53,3 +53,8 @@ It's crucial that the platform scales with an increasing user base, achievable t
 
 ### User Trust
 Transparency in operations, including mining processes and earnings distribution, is essential for building user trust.
+
+## Demo
+https://github.com/brendankariniemi/DistributedMining/assets/138073658/4c229d63-dff9-4a14-a9bc-555645e0ab23
+
+
